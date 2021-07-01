@@ -18,7 +18,7 @@ video {
 }
 /* setup body */
 body {
-text-align: center;
+text-align: left;
   border: 3px solid green;
  line-height: 1;
  font-family: Georgia, serif;
@@ -46,8 +46,18 @@ pre { font-family: consolas, monospace; }
 .nb{ font-style: italic; font-weight: bold; }
 /*background image */
 body {
-   background-image: url('background.jpg');
+   background-image: url('images/background.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: 100% 100%;
+}
+/* Listings*/
+ul {
+text-align: center ;
+padding: 0px
+}
+li {
+   display: inline-block;
+   width: auto;
+   list-style: outside none none;
 }
